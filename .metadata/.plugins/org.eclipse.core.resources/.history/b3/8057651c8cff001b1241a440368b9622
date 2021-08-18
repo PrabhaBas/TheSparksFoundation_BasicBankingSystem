@@ -1,0 +1,20 @@
+package com.prabha.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class PVBankController {
+	
+	@RequestMapping("/home")
+	public String home() {
+		return "index.jsp";
+	}
+	
+	@RequestMapping("/transact")
+	public String transact() {
+		return null;
+	}
+
+	
+}

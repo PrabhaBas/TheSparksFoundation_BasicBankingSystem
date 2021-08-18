@@ -1,0 +1,10 @@
+package com.prabha.demo.repo;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.prabha.demo.model.PVModel;
+
+public interface PVRepository extends CrudRepository<PVModel, Integer>
+{
+
+}

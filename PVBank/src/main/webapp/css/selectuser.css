@@ -1,0 +1,107 @@
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+	font-family: arial;
+
+	box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh ;
+
+	display: grid;
+
+	place-items: center;
+
+	
+	background: url(../Money-transfer.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+
+}
+h1{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	place-items: center;
+	text-align: center;
+	color:white;
+	
+}
+
+table{
+
+	width: 600px;
+
+	box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+
+}
+
+table, td, th{
+
+	padding: 13px;
+
+	border: 1px solid lightgray;
+
+	border-collapse: collapse;
+
+	text-align: center;
+
+	cursor: pointer;
+
+}
+
+td{
+
+	font-size: 15px;
+
+}
+
+th{
+
+	background-color: #009879;
+
+	color: white;
+
+}
+
+tr:nth-child(odd){
+
+	background-color: rgb(115, 156, 144);
+
+}
+
+tr:nth-child(odd):hover{
+
+	background-color: rgba(94, 255, 30, 0.418);
+
+	color: white;
+
+	transform: scale(1.1);
+
+	transition: transform 300ms ease-in;
+
+}
+
+tr:nth-child(even){
+
+	background-color: #ededed;
+
+}
+
+tr:nth-child(even):hover{
+
+	background-color: lightgray;
+
+	transform: scale(1.1);
+
+	transition: transform 300ms ease-in;
+
+
+}

@@ -1,0 +1,171 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+        <%@ page import="java.sql.*" %>
+<% Class.forName("com.mysql.cj.jdbc.Driver"); %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View all Users</title>
+
+
+	<link rel="stylesheet" type="text/css" href="css/table.css">
+	<link rel="shortcut icon" type="image/png" href="icon.jpg">
+</head>
+<body>
+
+
+<%
+           
+          String url ="jdbc:mysql://localhost:3306/pvbank";
+  		String user = "root";
+  		String pass = "1Prabhabas2@";
+  		
+  		String query = "select * from pvsender";
+  		
+  		
+  		Connection con = DriverManager.getConnection(url,user,pass);
+  		Statement st = con.createStatement();
+  		ResultSet rs = st.executeQuery(query);
+   
+          
+ %>
+
+  <h1>User Details</h1>
+
+<table>
+
+	<tr>
+
+		<th>Id</th>
+
+		<th>Name</th>
+
+		<th>E-Mail</th>
+
+		<th>Balance</th>
+
+	</tr>
+
+	<tr>
+
+		<td>1</td>
+
+		<td>Prabhavathi</td>
+
+		<td>prabha21@gmail.com</td>
+
+		<td>9600</td>
+
+	</tr>
+
+	<tr>
+
+		<td>2</td>
+
+		<td>Maha</td>
+
+		<td>maha14@gmail.com</td>
+
+		<td>12000</td>
+
+	</tr>
+
+	<tr>
+
+		<td>3</td>
+
+		<td>Riya</td>
+
+		<td>riyakishore@gmail.com</td>
+
+		<td>5000</td>
+
+	</tr>
+
+	<tr>
+
+		<td>4</td>
+
+		<td>Subha</td>
+
+		<td>subha2001@gmail.com</td>
+
+		<td>8000</td>
+
+	</tr>
+
+	<tr>
+
+		<td>5</td>
+
+		<td>Keerthi</td>
+
+		<td>keerthi39@gmail.com</td>
+
+		<td>5500</td>
+
+	</tr>
+
+	<tr>
+
+		<td>6</td>
+
+		<td>Janani</td>
+
+		<td>jananiram35@gmail.com</td>
+
+		<td>6600</td>
+
+	</tr>
+	<tr>
+
+		<td>7</td>
+
+		<td>Gowtham</td>
+
+		<td>goutham767@gmail.com</td>
+
+		<td>9000</td>
+
+	</tr>
+	<tr>
+
+		<td>8</td>
+
+		<td>Ram</td>
+
+		<td>ram8909@gmail.com</td>
+
+		<td>1300</td>
+
+	</tr>
+	<tr>
+
+		<td>9</td>
+
+		<td>Gayathri</td>
+
+		<td>gayupriya90@gmail.com</td>
+
+		<td>8900</td>
+
+	</tr>
+	<tr>
+
+		<td>10</td>
+
+		<td>Vinay</td>
+
+		<td>vinayram21@gmail.com</td>
+
+		<td>4900</td>
+
+	</tr>
+
+</table>
+
+</body>
+</html>

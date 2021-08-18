@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+#head{
+    text-align: center;
+
+}
+label{
+    display: block;
+    font-weight: bold;
+}
+input[type=text],[type=password],select {
+    width:400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+  }
+  
+  input[type=submit] {
+    width: 400px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+      width: 400px;
+  margin-left: 490px;
+    border-radius: 25px;
+    background-color:burlywood;
+    padding: 20px;
+  }

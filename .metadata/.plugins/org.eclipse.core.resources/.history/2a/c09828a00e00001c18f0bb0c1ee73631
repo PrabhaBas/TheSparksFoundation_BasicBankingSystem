@@ -1,0 +1,109 @@
+
+#head{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(198, 217, 252);
+}
+.transact{
+
+    height: 60px;
+    width: 1310px;
+    margin: 0;
+    padding: 20px;
+    padding-top: 30px;
+   
+}
+.transact .send-btn1{
+    margin-left: 350px;
+    background: #ddc018;
+    color: rgb(15, 15, 15);
+    border: none;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  
+  .transact .send-btn1:hover{
+    background: #f5e37c;
+  }
+  
+  .transact .send-btn2{
+    margin-left: 100px;
+    background: #ddc018;
+    color: rgb(24, 23, 23);
+    border: none;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  
+  .transact .send-btn2:hover{
+    background: #f5e37c;
+  }
+.transact-form .label1{
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+  .transact-form{
+background-color: rgb(250, 244, 244);
+border-color: black;
+border-width: 2px;
+border-style: solid;
+height: 250px;
+width: 400px;
+text-align: left;
+margin-left: 500px;
+margin-top: 30px;
+padding-left: 10px;
+padding-top: 50px;
+
+font-family: 'Times New Roman', Times, serif;
+  }
+  .transact-form .box{
+      height: 25px;
+      width: 160px;
+    
+  }
+  .transact-form #box1{
+    margin-left: 5px;
+
+  }
+  .transact-form .btn{
+    margin-left: 150px;
+    margin-top: 30px;
+    background: #3e9224;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  .transact-form #box2{
+      margin-left: 16px;
+  }

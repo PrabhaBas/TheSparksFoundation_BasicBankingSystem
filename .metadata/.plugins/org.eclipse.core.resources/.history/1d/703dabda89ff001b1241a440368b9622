@@ -1,0 +1,10 @@
+package com.prabha.demo.model;
+
+public class PVModel {
+	
+	private int id;
+	private String name;
+	private String mail;
+	private int balance;
+
+}

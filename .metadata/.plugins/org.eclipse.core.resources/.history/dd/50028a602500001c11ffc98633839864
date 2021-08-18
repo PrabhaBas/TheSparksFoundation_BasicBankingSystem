@@ -1,0 +1,177 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 55px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 3px 25px;
+}
+#logo img{
+    height: 75px;
+    margin: 5px 9px;
+}
+
+/* Navigation Bar: List Styling */
+#navbar{
+    position: relative;
+    background-color:rgb(71, 70, 70);
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai';  
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+   color: white;
+   display: block;
+   font-family: 'STIX Two Text', serif;
+   padding: 3px 22px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    padding: 6px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    position: fixed;
+    background: url(../images/BAnkBG1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+    height: 300%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.92;
+}
+
+#home h1{
+    color: rgb(252, 253, 251);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    color:rgb(250, 249, 245);
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
+}
+/* Utility Classes */
+.h-primary{
+    font-size: 2.1rem;
+    padding: 4px;
+}
+.btn{
+    position: relative;
+    text-align: center;
+    width: 262px;
+    padding: 10px;
+    font-size: 22px;
+    color: blue;
+    font-family:'Roboto Slab', serif;
+    font-weight: 359;
+    border: 4px solid #ec7190;
+    text-transform: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 100px;
+    opacity: 0.84;
+}
+.btn:hover
+{
+    box-shadow: 0 4px 10px 0 #ec7190 inset, 0 4px 10px 0 #ec7190,
+                0 4px 10px 0 #ec7190 inset, 0 4px 10px 0 #ec7190;
+}
+
+/* About us Section */
+#aboutus::before{
+    content: "";
+    position: fixed;
+    background: url('../2676105.jpg');
+    height: 120%;
+    width: 100%;
+    z-index: -5;
+    opacity: 0.99;
+}
+#aboutus h1{
+    color: black;
+    text-align: center;
+    font-family: 'Baloo Bhai';
+    z-index: 34;
+}
+
+#aboutus p{
+    color:darkgreen;
+    font-size: 0.98rem;
+    font-family: 'Bree Serif', serif;
+    z-index: 35;
+}
+
+body{
+    min-height: 100vh;
+}
+
+#container{
+    position: sticky;
+    color: white;
+    text-align: center;
+    font-size: 0.86rem;
+    margin-top: auto;
+    background: rgb(71, 70, 70);
+    padding-bottom: 40px;
+    height: 20px;
+    margin-top: 30px;
+}
+#footpart{
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:70px;   /* Height of the footer */
+   background:rgb(71, 70, 70);
+}
+

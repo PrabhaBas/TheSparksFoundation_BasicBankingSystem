@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <style>
+          body {
+            font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+.about-section {
+  text-decoration-line: underline;
+  padding: 5px;
+ height: 50px;
+  background-color: #4d4e50;
+  color: white;
+  
+}
+#head1{
+    text-align: center;
+}
+#img{
+  float: left;
+ 
+}
+#writer{
+  padding-right: 80px;
+  margin-top: 90px;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+     
+}
+
+
+      </style>
+</head>
+<body>
+
+</body>
+</html>

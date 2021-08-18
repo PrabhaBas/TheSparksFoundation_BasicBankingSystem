@@ -1,0 +1,45 @@
+package com.prabha.demo.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "pvsender")
+public class PVSender {
+	
+	@Id
+	@GeneratedValue()
+	private int sno;
+	private String sender;
+	private String receiver;
+	private int amount;
+	public String getSender() {
+		return sender;
+	}
+	public void setSender(String sender) {
+		this.sender = sender;
+	}
+	public String getReceiver() {
+		return receiver;
+	}
+	public void setReceiver(String receiver) {
+		this.receiver = receiver;
+	}
+	public int getAmount() {
+		return amount;
+	}
+	public void setAmount(int amount) {
+		this.amount = amount;
+	}
+	@Override
+	public String toString() {
+		return "PVSender [sender=" + sender + ", receiver=" + receiver + ", amount=" + amount + "]";
+	}
+	
+	
+	
+	
+
+}

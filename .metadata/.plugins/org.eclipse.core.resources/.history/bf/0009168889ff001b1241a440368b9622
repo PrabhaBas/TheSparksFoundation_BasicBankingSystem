@@ -1,0 +1,5 @@
+package com.prabha.demo.repo;
+
+public interface PVRepository {
+
+}

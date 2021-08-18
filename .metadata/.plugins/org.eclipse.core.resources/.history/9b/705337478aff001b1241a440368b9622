@@ -1,0 +1,8 @@
+package com.prabha.demo.model;
+
+public class PVSender {
+	private String sender;
+	private String receiver;
+	private int amount;
+
+}
